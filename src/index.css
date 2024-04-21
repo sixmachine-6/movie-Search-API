@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "font";
+  src: url(KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
+}
+
+body {
+  background: #eceff1;
+  font-family: "font";
+}
+
+html {
+  font-size: 62.5%;
+}

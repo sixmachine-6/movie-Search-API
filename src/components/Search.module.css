@@ -1,0 +1,16 @@
+.inputBox {
+  width: 95%;
+  padding: 1rem;
+  display: flex;
+}
+
+.input {
+  min-width: 94%;
+  height: 6rem;
+  border-radius: 25px;
+  border: 2px solid #ffcb38;
+  font-size: 1.75rem;
+  padding-left: 2rem;
+  position: relative;
+  color: #57585a;
+}

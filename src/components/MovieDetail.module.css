@@ -1,0 +1,70 @@
+.img {
+  min-width: 99%;
+  height: 42rem;
+  border-radius: 20px 20px 5px 5px;
+  margin: 1rem;
+}
+
+.movieDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  border: 1.5px solid black;
+  position: relative;
+  top: -6rem;
+  left: 0.8rem;
+  background: #e4e4e5;
+  border-radius: 25px;
+  border: 2px solid red;
+}
+.genres {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 2rem;
+}
+.genres li {
+  width: 10rem;
+  height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background: #9cdcb3;
+  margin: 1rem;
+  border-radius: 27px;
+}
+
+.title {
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+}
+
+.tagline {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.com {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.com li {
+  text-align: center;
+  width: 15rem;
+  background: white;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-left: 4px solid #9cdcb3;
+  border-radius: 0 3px 3px 0;
+}
+
+.com li img {
+  width: 10rem;
+}

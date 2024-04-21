@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.button {
+  height: 4rem;
+  width: 5rem;
+  background: #ffcb38;
+  border: none;
+  color: black;
+  font-size: 3rem;
+  margin: 1rem;
+  font-weight: bold;
+}

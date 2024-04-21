@@ -1,0 +1,25 @@
+.nav {
+  height: 4rem;
+  min-width: 33rem;
+  margin: 1rem;
+  background: #ffcb38;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* @font-face {
+  font-family: "font";
+  src: url(KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
+} */
+
+.nav h1 {
+  font-family: "font";
+  font-size: 3rem;
+}
+.nav i {
+  font-size: 3rem;
+  margin-top: 0.3rem;
+}

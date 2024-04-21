@@ -1,0 +1,88 @@
+.listItems {
+  height: 100%;
+  width: 50%;
+  background: #f8f9fb;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  padding-top: 4rem;
+  border-left: 3px solid #64ba87;
+  font-size: 2rem;
+}
+
+.filter {
+  text-align: center;
+  width: 14rem;
+  margin: 0 auto;
+  height: 3rem;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  background: #f8f9fb;
+  border-radius: 27px;
+  outline: 3px solid #ffcb38;
+}
+
+.selectedList {
+  width: 100%;
+  list-style: none;
+  border-radius: 8px;
+  background: #eceff1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.selectedList li {
+  height: 2rem;
+  min-width: 6rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  background: #9cdcb3;
+  border: 2px solid #9cdcb3;
+  color: #02782f;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  overflow: scroll;
+}
+
+.list li {
+  height: 2rem;
+  min-width: 4rem;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  background: #ffcb38;
+  border: 2px solid #ffcb38;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.listItems i {
+  position: relative;
+  top: -2rem;
+  height: 3rem;
+  width: 3rem;
+  background: #ffcb38;
+  border: none;
+  color: black;
+  font-size: 2.9rem;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+}
